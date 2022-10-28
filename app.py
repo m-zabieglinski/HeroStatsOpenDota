@@ -20,4 +20,4 @@ def stats_plot(rank_key):
                            name = f"Hero total picks and winrate in {rank_key.capitalize()}",
                            url = f"/static/images/{rank_key}_stats.png")
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
